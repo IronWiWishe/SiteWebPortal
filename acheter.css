@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+}
+
+
+.topbar {
+    min-width: calc(100% / 1);
+    max-width: calc(100% / 1);
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 56px;  
+}
+
+.bouton{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+
+.bouton a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 20px 30px;
+}
+
+.bouton a:hover {
+    background: #e3d6d62f;
+    color: #000
+}
+
+.button{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.button a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 20px 30px;
+}
+
+.button a:hover {
+    background: #e3d6d62f;
+    color: #000
+}
+
+.bouton2{
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.bouton2 a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 20px 30px;
+}
+
+.bouton2 a:hover {
+    background: #e3d6d62f;
+    color: #000
+}
+
+.button2{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.button2 a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 20px 30px;
+}
+
+.button2 a:hover {
+    background: #e3d6d62f;
+    color: #000
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .main .content .right img{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .main .content .right .title h2{
+        display: block;
+    }
+}
+    

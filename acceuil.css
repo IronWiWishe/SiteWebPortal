@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background: url(./image/Test_chamber_00.webp);
+    background-size: cover;
+}
+
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.topbar {
+    min-width: calc(100% / 1);
+    max-width: calc(100% / 1);
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 66px;  
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    border: 0.6px solid transparent;
+    margin-right: 300px;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background: #e2dbdb2f;
+    color: #000
+}
+
+ul li.active a{
+    background: #e2dbdb2f;
+    color: #000;
+}
+
+.principale {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.title {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1 {
+    color: #fff;
+    margin-left: 160px;
+}
+
+.title h3 {
+    color: #fff;
+}
+
+.bouton{
+    position: absolute;
+    top: 63%;
+    left: 42%;
+    transform: translate(-50%,-50%);
+}
+
+.bouton a{
+    color: #fff;
+    text-decoration: none;
+    border: 0.6px solid;
+    padding: 10px 20px;
+}
+
+.button{
+    position: absolute;
+    top: 63%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+}
+
+.button a{
+    color: #fff;
+    text-decoration: none;
+    border: 0.6px solid;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 1180px) {
+    .topbar{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+    
+
+
+@media screen and (max-width: 800px){
+    .topbar{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+    
